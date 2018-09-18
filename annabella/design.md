@@ -25,15 +25,15 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 
 ### Modules
 
-| Component    | Quantity | Controls | Inputs | Outputs |
-| ------------ | -------- | -------- | ------ | ------- |
-| Voltage Ref. | 8        | -        | -      | 8       |
-| Coefficients | 6        | 6 x pots | 6      | 6       |
-| Free pots    | 2        | 2 x pots | 6      | -       |
-| Summers      | 4        | -        | 16     | 8       |
-| Inverters    | 4        | -        | 4      | 8       |
-| Integrators  | 4        | 4 x SW   | 12     | 8       |
-| Multipliers  | 2        | -        | 3      | 4       |
+| Component    | Quantity | Control  | Inputs | Outputs | Tot. I+O |
+| ------------ | -------- | -------- | ------ | ------- | -------- |
+| Voltage Ref. | 8        | -        | -      | 8       | 8        |
+| Coefficients | 6        | pot      | 1      | 1       | 12       |
+| Free pots    | 2        | pot      | 3      | -       | 6        |
+| Summers      | 4        | -        | 4      | 2       | 24       |
+| Inverters    | 4        | -        | 1      | 2       | 12       |
+| Integrators  | 4        | Switch   | 3      | 2       | 24       |
+| Multipliers  | 2        | -        | 3      | 2       | 10       |
 
 (89 connectors there...maybe 12x8 = 96 available)
 
