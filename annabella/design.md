@@ -10,7 +10,9 @@ Metering with be done externally. (maybe a later unit containing meter + speaker
 
 My plan is to use an A4 plate as the front panel, which gives a nice physical limit on what is possible. This form-factor I believe should also work as a good alternative to finer-grained modular setups such as those based on Euroracks. Connectors will be 2mm banana plugs/sockets. 
 
-Standard analog chips will be used inside, powered at +/- 15v, using +/- 10v as the value range.
+Standard analog chips will be used inside (probably mostly TL072 op amps), powered at +/- 15v, using +/- 10v as the value range.
+
+I'm not aiming for high precision, but may have a bit of trimming for things like offset on the pots. etc.
 
 ## Proposed Functionality
 
