@@ -4,7 +4,7 @@ I want to build an analog computer.
 
 ### Status
 
-[Annabella](annabella/design.md) will be the alpha (named after Lady Byron, Ada Lovelace's mother)
+[Anabella](anabella/design.md) will be first proper attempt (loosely named after Lady Byron, Ada Lovelace's mother)
 
 **2018-09-18** set up github repo, started typing up plans
 

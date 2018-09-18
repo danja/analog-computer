@@ -8,7 +8,7 @@ The basic goal is to build a machine comparable to the basic analog computers us
 
 Metering with be done externally. (maybe a later unit containing meter + speaker + Arduino-based 'scope).
 
-My plan is to use an A4 plate as the front panel, which gives a nice physical limit on what is possible. This form-factor I believe should also work as a good alternative to finer-grained modular setups such as those based on Euroracks. Connectors will be 2mm banana plugs/sockets. 
+My plan is to use an A4 plate as the front panel, which gives a nice physical limit on what is possible. This form-factor I believe should also work as a good alternative to finer-grained modular setups such as those based on Euroracks. Connectors will be 2mm banana plugs/sockets.
 
 Standard analog chips will be used inside (probably mostly TL072 op amps), powered at +/- 15v, using +/- 10v as the value range.
 
@@ -35,7 +35,7 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 | Integrators  | 4        | Switch   | 3      | 2       | 24       |
 | Multipliers  | 2        | -        | 3      | 2       | 10       |
 
-(89 connectors there...maybe 12x8 = 96 available)
+(96 connectors there...maybe 12x8 = 96 available)
 
 #### TBD
 
@@ -56,7 +56,7 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 
 6 x potentiometers with one terminal grounded, feeding unity gain buffers
 
-## Free pots 
+## Free pots
 
 2 x pots, all terminals exposed
 
@@ -70,7 +70,7 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 
 *TBD Should the virtual ground point be exposed?*
 
-## Inverters 
+## Inverters
 
 4 x unity gain op amp inverters, 1 input, 1 output
 
@@ -78,16 +78,6 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 
 4 x op amps in **inverting** configuration, with switched capacitor for time constant, with analog switches handling initial conditions/run
 
-## Multipliers 
+## Multipliers
 
-2 x AD633 
-
-
-
-
-
-
-
-
-
-
+2 x AD633
