@@ -33,6 +33,8 @@ Standard analog chips will be used inside, powered at +/- 15v, using +/- 10v as 
 | Integrators  | 4        | 4 x SW   | 12     | 8       |
 | Multipliers  | 2        | -        | 3      | 4       |
 
+(89 connectors there...maybe 12x8 = 96 available)
+
 #### TBD
 
 * log
