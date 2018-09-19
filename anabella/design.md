@@ -1,10 +1,11 @@
-# Analog Computer : Annabella
+# Analog Computer : Anabella
 
 The basic goal is to build a machine comparable to the basic analog computers used (occasionally) in education, with enough functionality to be able to model some 'standard' systems:
 
 * damped mass on spring
 * bouncing ball in a box
 * Lorenz Attractor
+* 3-cell Cellular Neural Network
 
 Metering with be done externally. (maybe a later unit containing meter + speaker + Arduino-based 'scope).
 
