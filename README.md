@@ -16,4 +16,3 @@ I want to build an analog computer.
 * for use in music synthesis (also I want to try out a particular semi-modular construction idea, something to use later on analog synth components)
 * brush up my calculus
 * general curiosity - in particular experimentation with hybridization, using an Arduino to interface with PC, put it on the Web
-
