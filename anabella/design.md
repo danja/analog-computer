@@ -20,7 +20,7 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 ### Control Unit
 
 * Power switch & LED
-* Set initial conditions - NB. Allow external reset
+* Set initial conditions - allow external reset?
 * Run
 * ...
 
@@ -85,7 +85,8 @@ Like the summers, a 100k input & 100k feedback resistor should be ok.
 
 ## Integrators
 
-4 x op amps in **inverting** configuration, with switched capacitor for time constant, with analog switches handling initial conditions/run
+4 x op amps in **inverting** configuration, with switched capacitor for time constant, 
+paired, each pair having a DPDT, ON-OFF-ON switch for Initial Conditions - Hold - Run
 
 ## Multipliers
 
