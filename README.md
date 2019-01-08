@@ -14,7 +14,8 @@ I want to build an analog computer.
 
 ### Motivation
 
-* simulating seismic-like systems to (hopefully) inform [ELFQuake](https://elfquake.wordpress.com/)
+* simulating seismic-like systems and play with signal conditioning to (hopefully) inform [ELFQuake](https://elfquake.wordpress.com/)
 * for use in music synthesis (also I want to try out a particular semi-modular construction idea, something to use later on analog synth components)
 * brush up my calculus
-* general curiosity - in particular experimentation with hybridization, using an Arduino to interface with PC, put it on the Web
+* general curiosity - in particular experimentation with hybridization, using an Arduino to interface with PC, put everything on the Web
+* [chaos](http://www.analogmuseum.org/english/examples/lorenz_attractor/) is fun!
