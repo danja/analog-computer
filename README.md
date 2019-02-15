@@ -19,3 +19,5 @@ I want to build an analog computer.
 * brush up my calculus
 * general curiosity - in particular experimentation with hybridization, using an Arduino to interface with PC, put everything on the Web
 * [chaos](http://www.analogmuseum.org/english/examples/lorenz_attractor/) is fun!
+
+*This also looks like it might have potential for fun : [Mathematical modelling of infectious disease](https://en.wikipedia.org/wiki/Mathematical_modelling_of_infectious_disease). The SIR model uses 3 differential equations, should test my calculus at least.*
