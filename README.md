@@ -4,7 +4,7 @@ I want to build an analog computer.
 
 ### Status
 
-[Anabella](anabella/design.md) will be first proper attempt (loosely named after Lady Byron, Ada Lovelace's mother)
+[Anabella](anabella/design.md) will be first proper attempt.
 
 **2018-09-25** overall [design](anabella/design.pdf) more or less worked out, started roughing out [front panel](anabella/front-panel.pdf) roughed out. Now working through individual modules, breadboarding. Soon will order case and some connectors, make sure everything will fit.
 
