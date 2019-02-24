@@ -2,10 +2,33 @@
 
 // READ LNUC-V.pdf
 
+0. Preface
+// subject, scope, or aims
+
+
 1. Introduction
+The obvious first question is: what is an analog computer?
+A quick answer would be that they are electronic systems designed to solve mathematical problems, especially those involving differential equations. Alternately, they could be described as a collection of electronic modules which can be interconnected to simulate physical systems.
+
+// obsolete
+
+But to answer the question more adequately, the words 'computer' and 'analog' need a little historical examination, both of their meanings have changed over time. Until around the middle of the 20th century, very often a computer was a person who did calculations. Typically women were employed as computers as they could be paid less than men. There is some irony here, as the person generally credited with being the first computer programmer was a women: Ada Lovelace, colleague of Charles Babbage in the 19th century. Babbage's computers were mechanical, and calculating machines remained in this form for about a hundred years until the first electronic computers appeared.  
+
+But most of the mechanical and early electronic scomputers worked on completely different principles than the digital computers we are familiar with today. Nowadays, in technology, the word analog loosely means 'not digital'. But in the context here, it has the sense of an analog being one thing that behaves in the same way as another. Regular computer programming has the concept of a model, pretty well following the notion of mathematical models. But with analog computers the model is not expressed in code or symbols but in electronic circuits. In a sense they make a physical representation of the system being modeled. This may seem rather a strange idea, but there's at least one very familiar example - the analog clock or watch. Yes, they fit the meaning of 'not digital', but the description also matches on a deeper level. The clock mechanism, the way the hands move around the dial, are acting as an analog of the way the earth turns on it's axis.
+
+// slide rule
+
+
+// why are they interesting today?
+
+// Electronic Differential Analyzers?
+// hard-wired vs general purpose
+
+
 1.1 Basic Operation
 direct integration vs. simulation
 Components
+// noise, dynamic range vs. digital
 // why not differentiators?
 Scaling
 I/O
@@ -14,9 +37,9 @@ Hybrid Systems
 1.3 Further Reading
 
 
-2. Computing Units
+2. Analog Building Blocks
 
-2.1 Constants
+2.1 Constants and Coefficients
 2.1.1 Theory
 2.1.2 Implementation
 
