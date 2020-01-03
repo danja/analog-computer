@@ -11,7 +11,7 @@ Also I want to try out a cheapo kind of construction, ready-made cases are reall
 
 * The individual components of artificial neural networks are composed of essentially analog computing units (done digitally). Though you may have thousands in a typical nn, I think it might be useful to play with one or two in isolation.
 
-* real neural networks - in the brain use quite a different system than the computer ones. The computer ones are typically based around continuous signals, the animal ones pass around spike. Could be some potential for useful experimentation.
+* neuromorphic neural networks - in the brain use quite a different system than the computer ones. The computer ones are typically based around continuous signals, the animal ones pass around spikes. Could be some potential for useful experimentation.
 
 * chaos! They're ideal for creating chaotic systems, something to play with. 
 

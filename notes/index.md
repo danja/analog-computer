@@ -5,6 +5,8 @@
 0. Preface
 // subject, scope, or aims
 
+engineering, robotics
+
 
 1. Introduction
 The obvious first question is: what is an analog computer?
