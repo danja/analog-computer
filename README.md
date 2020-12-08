@@ -2,6 +2,8 @@
 
 I want to build an analog computer. [Design in progress](anabella/design.md).
 
+This repo is in need of organization!
+
 ### Status
 
 **2020-12-08**
@@ -15,13 +17,11 @@ The front panel - which effectively determines the overall design under the hood
 
 ![Front Panel](https://github.com/danja/analog-computer/blob/master/images/front-panel_2020-12-08.png?raw=true)
 
-I've also done quite a lot of research into potential circuits. My most immediate task there is to organise notes/docs around that. Then, I anticipate rather a lot of time on the breadboard.
+I've also done quite a lot of research into potential circuits. (See [references](anabella/reference)) My most immediate task there is to organise notes/docs around that. Then, I anticipate rather a lot of time on the breadboard.
 
 **2018-09-25** overall [design](anabella/design.pdf) more or less worked out, started roughing out [front panel](anabella/front-panel.pdf) roughed out. Now working through individual modules, breadboarding. Soon will order case and some connectors, make sure everything will fit.
 
 2018-09-18 set up github repo, started typing up plans
-
-*I've done quite a lot of background reading, gathered loads of [references](anabella/reference), now it's time to start putting things into practice*
 
 ### Motivation
 
