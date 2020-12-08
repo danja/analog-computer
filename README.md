@@ -4,10 +4,12 @@ I want to build an analog computer. [Design in progress](anabella/design.md).
 
 ### Status
 
-**2020-12-08** wow, rather a long time since I last updated things here. Moderately good reason: about a year ago I realised I had too many projects on the go at the same time, so tried to focus on just one - [Chatterbox](https://github.com/danja/chatterbox).
+**2020-12-08**
+Wow, rather a long time since I last updated things here. Moderately good reason: about a year ago I realised I had too many projects on the go at the same time, so tried to focus on just one - [Chatterbox](https://github.com/danja/chatterbox).
 
 But that isn't to say I've totally neglected this thing. Most visibly, I *may* have accumulated all the components I'll need.
 
+![Bits](https://github.com/danja/analog-computer/blob/master/images/bits.jpg?raw=true)
 
 My front panel - which effectively determines the overall design under the hood - is getting towards the point where I can start that side of construction.
 
