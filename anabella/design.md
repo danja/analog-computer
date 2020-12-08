@@ -1,11 +1,25 @@
-# Analog Computer : Anabella
+# Analog Computer
 
-The basic goal is to build a machine comparable to the basic analog computers used (occasionally) in education, with enough functionality to be able to model some 'standard' systems:
+The goal here is to build a machine comparable to the basic [analog computers](https://en.wikipedia.org/wiki/Analog_computer) used (occasionally) in education, which in turn are modeled on those developed historically for solving equations.
 
-* damped mass on spring
-* bouncing ball in a box
-* Lorenz Attractor
-* 3-cell Cellular Neural Network
+There's a certain irony that these machines are generally considered obsolete, if not entirely forgotten, yet virtually all of the electronic devices we use every day contain analog computing elements.
+
+The big difference is that the circuits used in eg. a mobile phone to interface with sensors like microphones and cameras are purpose-specific. Traditional analog computers are more general-purpose.
+
+An analog circuit developer will very likely at some point in a project prototype on a breadboard using loose components that correspond directly with those of analog computers : resistors, capacitors and most notably operational amplifiers (which come straight from the world of analog computers, for carrying out mathematical operations). But the level of granularity and user interface are somewhat different.  
+
+The modules of an analog computer relate more directly to mathematical operations such as addition, multiplication and integration. While it is possible to simulate these numerically in a digital computer, there is a qualitative difference. I suspect there may be insights offered by the analog paradigm that are obscured by looking at things through a digital lens.
+It's worth remembering that the physical world, at human scales, is essentially an analog system - well, the word 'analog' has been retroactively applied to mean something that is continuous rather than discrete. Originally it refers to one system that behaves in a similar, analogous manner to another.  
+
+### Requirements
+
+I'd like enough functionality to be able to model some 'standard' systems:
+
+* [Damped Mass on Spring](https://en.wikipedia.org/wiki/Mass-spring-damper_model)
+* [Bouncing Ball](https://en.wikipedia.org/wiki/Bouncing_ball) (in a box..?)
+* [Lorenz System](https://en.wikipedia.org/wiki/Lorenz_system)
+* 3-cell [Cellular Neural Network](https://en.wikipedia.org/wiki/Cellular_neural_network)
+* [Lotka-Volterra Predator-Prey](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations)
 
 Metering with be done externally. (maybe a later unit containing meter + speaker + Arduino-based 'scope). It should be worthwhile allowing for some level of external control (ie. for resetting the integrators) to allow an Arduino or whatever to interface, making a hybrid computer.
 
@@ -20,9 +34,10 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 ### Control Unit
 
 * Power switch & LED
-* Set initial conditions - allow external reset?
-* Run
-* ...
+* Overload indicator
+* Mode switch : Initial Conditions/Run/Halt
+
+*TBD: external control of the mode would be desirable*
 
 ### Modules
 
@@ -39,14 +54,6 @@ I'm not aiming for high precision, but may have a bit of trimming for things lik
 | Exp          | 1        | -        | 1      | 1       | 2        |
 
 (96 connectors there...maybe 12x8 = 96 available)
-
-#### TBD
-
-* comparator(s)
-* rectifiers(s)
-* function generators(s) (transfer function)
-* function generator (sig. gen.)
-* clock
 
 ## Voltage Reference
 
@@ -85,9 +92,24 @@ Like the summers, a 100k input & 100k feedback resistor should be ok.
 
 ## Integrators
 
-4 x op amps in **inverting** configuration, with switched capacitor for time constant,
-paired, each pair having a DPDT, ON-OFF-ON switch for Initial Conditions - Hold - Run
+4 x op amps in **inverting** configuration, with switched capacitor for time constant.
+
+**TBD**
+
+To allow simultaneous response and the potential for external control, electronic switching of the integrators is desirable.
+
+Common (inexpensive) analog switch ICs won't support the +/- 15v range. The plan here is to experiment with discrete FET-based switches.  
+
+A fallback here is to use electromechanical relays or possibly pair the indegrators, each pair having a DPDT, ON-OFF-ON switch for Initial Conditions - Hold - Run. Because of timing issues, this is a last resort.
 
 ## Multipliers
 
-2 x AD633
+**TBD**
+
+The easiest solution here is to use dedicated multiplier chips - maybe 2 x AD633. These are quite expensive.
+Less expensive, but potentially just as good are circuits based around the LM13700 (dual) transconductance op-amp.
+Breadboard experimentation needed here.
+
+## Log/Exp
+
+Log & antilog circuits can be quite straightforward, but there is a particular practical issue to consider - log(x) where x<0 is undefined (complex logs are beyond scope here).

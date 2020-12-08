@@ -1,10 +1,17 @@
 # Analog Computer
 
-I want to build an analog computer.
+I want to build an analog computer. [Design in progress](anabella/design.md).
 
 ### Status
 
-[Anabella](anabella/design.md) will be first proper attempt.
+**2020-12-08** wow, rather a long time since I last updated things here. Moderately good reason: about a year ago I realised I had too many projects on the go at the same time, so tried to focus on just one - [Chatterbox](https://github.com/danja/chatterbox).
+
+But that isn't to say I've totally neglected this thing. Most visibly, I *may* have accumulated all the components I'll need.
+
+
+My front panel - which effectively determines the overall design under the hood - is getting towards the point where I can start that side of construction.
+
+I've also done quite a lot of research into potential circuits. My most immediate task there is to organise notes/docs around that. Then, I anticipate rather a lot of time on the breadboard.
 
 **2018-09-25** overall [design](anabella/design.pdf) more or less worked out, started roughing out [front panel](anabella/front-panel.pdf) roughed out. Now working through individual modules, breadboarding. Soon will order case and some connectors, make sure everything will fit.
 
