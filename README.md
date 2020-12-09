@@ -6,6 +6,12 @@ This repo is in need of organization!
 
 ### Status
 
+**2020-12-09**
+
+Made some tweaks to design/front panel, decided it'd be a good idea to include a Summing Junction input on the summers.
+ 
+Started a [links page](links.md).
+
 **2020-12-08**
 Wow, rather a long time since I last updated things here. Moderately good reason: about a year ago I realised I had too many projects on the go at the same time, so tried to focus on just one - [Chatterbox](https://github.com/danja/chatterbox).
 
