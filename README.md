@@ -15,11 +15,11 @@ But that isn't to say I've totally neglected this thing. Most visibly, I *may* h
 
 The front panel - which effectively determines the overall design under the hood - is getting towards the point where I can start that side of construction. The top half here is the patchbay, bottom half controls.
 
-![Front Panel](https://github.com/danja/analog-computer/blob/master/images/front-panel_2020-12-08.png?raw=true)
+![Front Panel](https://github.com/danja/analog-computer/blob/master/anabella/images/front-panel_2020-12-09.png?raw=true)
 
 I've also done quite a lot of research into potential circuits. (See [references](anabella/reference)) My most immediate task there is to organise notes/docs around that. Then, I anticipate rather a lot of time on the breadboard.
 
-**2018-09-25** overall [design](anabella/design.pdf) more or less worked out, started roughing out [front panel](anabella/front-panel.pdf) roughed out. Now working through individual modules, breadboarding. Soon will order case and some connectors, make sure everything will fit.
+**2018-09-25** overall [design](anabella/design.pdf) more or less worked out, started roughing out front panel. Now working through individual modules, breadboarding. Soon will order case and some connectors, make sure everything will fit.
 
 2018-09-18 set up github repo, started typing up plans
 
