@@ -20,6 +20,7 @@ I'd like enough functionality to be able to model some 'standard' systems:
 * [Lorenz System](https://en.wikipedia.org/wiki/Lorenz_system)
 * 3-cell [Cellular Neural Network](https://en.wikipedia.org/wiki/Cellular_neural_network)
 * [Lotka-Volterra Predator-Prey](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations)
+* [PID Controller](https://en.wikipedia.org/wiki/PID_controller) - apply it to a real physical mechanism
 
 Metering with be done externally. (maybe a later unit containing meter + speaker + Arduino-based 'scope). It should be worthwhile allowing for some level of external control (ie. for resetting the integrators) to allow an Arduino or whatever to interface, making a hybrid computer.
 
@@ -92,13 +93,15 @@ Like the summers, a 100k input & 100k feedback resistor should be ok.
 
 ## Integrators
 
-4 x op amps in **inverting** configuration, with switched capacitor for time constant.
+4 x op amps in inverting configuration, with mechanically switched capacitor for time constant.
 
 **TBD**
 
 To allow simultaneous response and the potential for external control, electronic switching of the integrators is desirable.
 
-Common (inexpensive) analog switch ICs won't support the +/- 15v range. The plan here is to experiment with discrete FET-based switches.  
+The basic setup needed is as in [Dr.Vogel's design](http://www.analogmuseum.org/english/homebrew/vogel/), here's a local copy of the [circuit](https://github.com/danja/analog-computer/blob/master/reference/vogel_schaltplan.pdf). But where that uses dual-ganged mechanical, ON-OFF-ON switches, I'd like to use electronic switching. This is a tradeoff : the mechanical approach would give good high/low resistance values, but at the cost of potential timing issues, and lack of external control.
+
+Relays seem just a bit too retro, common (inexpensive) analog switch ICs won't support the +/- 15v range. The plan here is to experiment with discrete FET-based switches. Initial reading suggests that JFETs are likely to have more appropriate characteristics than MOSFETs. This is a fairly standard technique for audio routing, eg. for bypass in guitar effects pedals (see [Boss OS-2](https://schems.com/Schematics/Distortion%20Boost%20and%20Overdrive/BOSS%20OS-2.gif)). For external control, [this circuit](https://tataylino.com/audio-source-switch-for-arduino/) is intended for use with Arduinos - it's the 2N3819 (with an associated diode) driven by a bipolar transistor for switching. This is porobably a good starting point.
 
 A fallback here is to use electromechanical relays or possibly pair the indegrators, each pair having a DPDT, ON-OFF-ON switch for Initial Conditions - Hold - Run. Because of timing issues, this is a last resort.
 
