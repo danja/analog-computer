@@ -6,10 +6,12 @@ This repo is in need of organization!
 
 ### Status
 
+*More detailed notes can be found on the [DevLog](https://github.com/danja/analog-computer/blob/master/devlog.md)*
+
 **2020-12-09**
 
 Made some tweaks to design/front panel, decided it'd be a good idea to include a Summing Junction input on the summers.
- 
+
 Started a [links page](links.md).
 
 **2020-12-08**
