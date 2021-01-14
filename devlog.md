@@ -1,5 +1,9 @@
 # Development Log
 
+**2021-01-14** My birthday!
+
+Blog post: https://dannyayers.wordpress.com/2021/01/14/synchronearlicity/
+
 **2021-01-09**
 
 I'm typing this in the dark, power outage.
