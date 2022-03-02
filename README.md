@@ -8,6 +8,12 @@ This repo is in need of organization!
 
 _More detailed notes can be found on the [DevLog](https://github.com/danja/analog-computer/blob/master/devlog.md)_
 
+**2022-03-02**
+
+Check this [Veritasium video](https://www.youtube.com/watch?v=GVsUOuSjvcg)
+
+The [THAT](https://the-analog-thing.org/) machine looks brilliant. Open source! Done by folks with [Prof. Bernd Ullmann](https://de.wikipedia.org/wiki/Bernd_Ulmann), the world expert on this stuff in 2022, also a nice man, very approachable and helpful when I had problems.  
+
 **2021-12-22** Double-Wow! Another year's gone by without me making any _visible_ progress on this thing. Most recent related development has been getting together test gear. That should make the breadboarding etc. go much faster - long term efficiency, innit. Should be able to get back to this in the next few weeks. (Similar goes for my [ELFQuake](https://elfquake.wordpress.com/) project).
 
 Elsewhere, have got https://hyperdata.it live again with blog, bit-by-bit getting other projects live again there.
@@ -44,6 +50,7 @@ I've also done quite a lot of research into potential circuits. (See [references
 - simulating seismic-like systems and play with signal conditioning to (hopefully) inform [ELFQuake](https://elfquake.wordpress.com/)
 - for use in music synthesis (also I want to try out a particular semi-modular construction idea, something to use later on analog synth components)
 - brush up my calculus
+- transfer functions for neural nets
 - general curiosity - in particular experimentation with hybridization, using an Arduino to interface with PC, put everything on the Web
 - [chaos](http://www.analogmuseum.org/english/examples/lorenz_attractor/) is fun!
 
